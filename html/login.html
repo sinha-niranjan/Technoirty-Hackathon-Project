@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>todo|login</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  bg-primary">
+            <div class="container-fluid ">
+                <a class="navbar-brand text-dark text-dark" href="index.html">Todo </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="todo.html">task create</a>
+                        </li>
+                        <li class="nav-item dropdown  ">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark" href="contact.html">Contact</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">about us</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-dark"  href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- <a href="login.html" class="btn">
+                        <button type="button" class="btn btn-danger">Login</button>
+                    </a> -->
+                    <a href="create.html" class="btn">
+                        <button type="button" class="btn btn-danger">Sign up</button>
+                    </a>
+                    <!-- <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-sd-3 offset-lg-4">
+                        <h1 class="mb-3 text-center">Todo log in</h1>
+                        <form class="mb-3">
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" placeholder="example@email.com" id="email"
+                                    required />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Enter Password:</label>
+                                <input type="password" class="form-control" id="password" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Renter Password :</label>
+                                <input type="password" class="form-control" id="password" required />
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Login
+                            </button>
+                        </form>
+                        <div class="text-center">
+                            <p>or..</p>
+                            <a href="create.html" class="btn btn-success">Create account</a>
+                            <p class="small">
+                                <a href="#">Have you forgotten your account details?</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <footer id="footer">
+            <div class="foot fixed-bottom bg-dark text-center text-light">
+                <a class="footer-link" href="https://www.facebook.com/profile.php?id=100022766837498"><i
+                        class="fa fa-brands fa-facebook"></i></a>
+                <a class="footer-link" href=" https://twitter.com/sinha_niranjan_"><i
+                        class="fa fa-brands fa-twitter"></i></a>
+                <a class="footer-link" href=" https://www.instagram.com/sinha_niranjankumar/"> <i
+                        class="fa fa-brands fa-instagram"></i></a>
+                <a class="footer-link" href="https://www.linkedin.com/in/niranjan-kumar-015675238/"><i
+                        class="fa fa-brands fa-linkedin"></i></a>
+                <a class="footer-link " href=" https://mail.google.com/mail/u/0/#inbox"> <i
+                        class="fa-solid fa-envelope"></i></a>
+
+                <p>© Copyright TinDog</p>
+
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
