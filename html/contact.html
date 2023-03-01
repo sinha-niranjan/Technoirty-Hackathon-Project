@@ -1,6 +1,7 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +11,21 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <title>Todo  | Contact</title>
- </head>
- <body>
+    <title>Todo | Contact</title>
+</head>
+
+<body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
                 <a class="navbar-brand " href="index.html">Todo </a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
@@ -42,16 +44,16 @@
                             <ul class="dropdown-menu ">
                                 <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
                                 <li><a class="dropdown-item" href="contact.html">About us</a></li>
-    
+
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
                             </ul>
                         </li>
-    
-    
-    
+
+
+
                     </ul>
                     <a href="login.html" class="btn">
                         <button type="button" class="btn btn-danger">Login</button>
@@ -59,35 +61,87 @@
                     <a href="create.html" class="btn">
                         <button type="button" class="btn btn-danger">Sign up</button>
                     </a>
-    
-    
+
+
                 </div>
-    
+
             </div>
         </nav>
     </header>
     <main>
+        <div class="container-fluid">
+            <h1 class="mb-sm-4 text-center">Contact</h1>
 
+            <div class="col-12 col-lg">
+                <h4>Address:</h4>
+                <address>
+                    <strong>Bihar, bhagalpur</strong><br />
+                    bhagalpur college Hostel<br />
+                    bhagalpur, Bihar<br />
+                    <abbr title="Telephone">T:</abbr><a href="tel:+919721304421">+91-6202421430</a><br />
+                    <abbr title="Mail">M:</abbr><a href="mailto:info@domain.com">info@domain.com</a>
+                </address>
+
+                
+                    <div class="col-12 col-lg-6 mb-3">
+                        <h4>Send us a message</h4>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="text" id="name" class="form-control" placeholder="Name" required />
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="name">Email</label>
+                                        <input type="email" id="email" class="form-control"
+                                            placeholder="example@email.com" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="telephone">Telephone</label>
+                                        <input type="tel" id="telephone" class="form-control"
+                                            required />
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="select">Grade:</label>
+                                        <select id="select" class="form-control" aira-describedby="select-helpBlock"
+                                            required>
+                                            <option value="">- select here -</option>
+                                            <option value="Good">Good</option>
+                                            <option value="better">Better</option>
+                                            <option value="best">Best</option>
+                                        </select>
+                                        <small id="select-helpBlock" class="form-text">Please select the Grade you want to give us.</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="textarea">Message:</label>
+                                <textarea id="textarea" class="form-control" rows="5"
+                                    placeholder="Write your message here.." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="reset" class="btn btn-secondary">Reset</button>
+                        </form>
+                    </div>
+
+             
+            </div>
+
+
+
+        </div>
     </main>
     <footer>
-        <!-- <footer id="footer">
-            <div class="foot fixed-bottom bg-dark text-center text-light">
-                <a class="footer-link" href="https://www.facebook.com/profile.php?id=100022766837498"><i
-                        class="fa fa-brands fa-facebook"></i></a>
-                <a class="footer-link" href=" https://twitter.com/sinha_niranjan_"><i class="fa fa-brands fa-twitter"></i></a>
-                <a class="footer-link" href=" https://www.instagram.com/sinha_niranjankumar/"> <i
-                        class="fa fa-brands fa-instagram"></i></a>
-                <a class="footer-link" href="https://www.linkedin.com/in/niranjan-kumar-015675238/"><i
-                        class="fa fa-brands fa-linkedin"></i></a>
-                <a class="footer-link " href=" https://mail.google.com/mail/u/0/#inbox"> <i
-                        class="fa-solid fa-envelope"></i></a>
-        
-                <p>© Copyright TinDog</p>
-        
-            </div>
-        
-        
-        </footer> -->
+       
         <hr>
         <footer class="py-5 px-5">
             <div class="container text-center">
@@ -99,14 +153,15 @@
                             <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Contact</a>
                             </li>
                             <li class="nav-item mb-2"><a href="term.html" class="nav-link p-0 text-muted">Term</a></li>
-                            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
+                            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col">
                         <form>
                             <h5><strong>Subscribe,</strong> for for manage your personal works,professional
                                 works,shoppings,vacation,e.t.c</h5>
-        
+
                             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                                 <label for="newsletter1" class="visually-hidden">Email address</label>
                                 <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
@@ -124,16 +179,17 @@
                         style="margin: 0 10px;"><i class="fa fa-brands fa-facebook"></i></a>
                     <a class="footer-link" href=" https://twitter.com/sinha_niranjan_" style="margin: 0 10px;"><i
                             class="fa fa-brands fa-twitter"></i></a>
-                    <a class="footer-link" href=" https://www.instagram.com/sinha_niranjankumar/ style = " margin: 0 10px;""> <i
-                            class="fa fa-brands fa-instagram"></i></a>
-                    <a class="footer-link" href="https://www.linkedin.com/in/niranjan-kumar-015675238/"" style = " margin: 0
-                        10px;"><i class="fa fa-brands fa-linkedin"></i></a>
+                    <a class="footer-link" href=" https://www.instagram.com/sinha_niranjankumar/ style = " margin: 0
+                        10px;""> <i class="fa fa-brands fa-instagram"></i></a>
+                    <a class="footer-link" href="https://www.linkedin.com/in/niranjan-kumar-015675238/"" style = "
+                        margin: 0 10px;"><i class="fa fa-brands fa-linkedin"></i></a>
                     <a class="footer-link " href=" https://mail.google.com/mail/u/0/#inbox" style="margin: 0 10px;"> <i
                             class="fa-solid fa-envelope"></i></a>
-        
+
                 </ul>
             </div>
         </footer>
     </footer>
- </body>
- </html>
+</body>
+
+</html>
