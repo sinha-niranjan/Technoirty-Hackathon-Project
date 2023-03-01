@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- footer style -->
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -17,64 +16,66 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title> Todo | Home</title>
-    <link rel="stylesheet" href="css/footer.css">
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg  bg-primary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Todo </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="todo.html">task create</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                More
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
-                                <li><a class="dropdown-item" href="#">about us</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="index.html">Todo </a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="todo.html">task create</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
+                            <li><a class="dropdown-item" href="contact.html">About us</a></li>
 
-                    </ul>
-                    <a href="login.html" class="btn">
-                        <button type="button" class="btn btn-danger">Login</button>
-                    </a>
-                    <a href="create.html" class="btn">
-                        <button type="button" class="btn btn-danger">Sign up</button>
-                    </a>
-                    <!-- <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-light" type="submit">Search</button>
-                    </form> -->
-                </div>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                        </ul>
+                    </li>
+
+                    
+
+                </ul>
+                <a href="login.html" class="btn">
+                                            <button type="button" class="btn btn-danger">Login</button>
+                                        </a>
+                <a href="create.html" class="btn">
+                    <button type="button" class="btn btn-danger">Sign up</button>
+                </a>
+
+
             </div>
-        </nav>
-    </header>
+
+        </div>
+    </nav>
+</header>
 
 
 
 
     <body>
 
-        <div id="carouselExampleCaptions" class="carousel slide" style = "margin : 0 0 40px 0;">
+        <div id="carouselExampleCaptions" class="carousel slide" style="margin : 0 0 40px 0;">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -85,19 +86,23 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="http://source.unsplash.com/1600x500/?personal works,vacation, eating , resututrant , visiting mauntains" class="d-block w-100" alt="">
+                    <img src="http://source.unsplash.com/1600x500/?personal works,vacation, eating , resututrant , visiting mauntains"
+                        class="d-block w-100" alt="">
                     <div class="carousel-caption d-none d-md-block ">
                         <h5>PERSONAL TASKS</h5>
-                        <p>Personal work management is essential in daily life as it leads to increased productivity, better time management,
-                        reduced stress, and improved work-life balance.</p>
+                        <p>Personal work management is essential in daily life as it leads to increased productivity,
+                            better time management,
+                            reduced stress, and improved work-life balance.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="http://source.unsplash.com/1600x500/?professional works, office , meetintgs, coding, doctor" class="d-block w-100" alt="...">
+                    <img src="http://source.unsplash.com/1600x500/?professional works, office , meetintgs, coding, doctor"
+                        class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>PROFESSIONAL TASKS</h5>
-                        <p>Professional tasks are important because they contribute to the successful execution of job responsibilities and help
-                        individuals develop skills and expertise in their chosen field.</p>
+                        <p>Professional tasks are important because they contribute to the successful execution of job
+                            responsibilities and help
+                            individuals develop skills and expertise in their chosen field.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -125,7 +130,7 @@
             <strong>Note:-</strong> This site is used to handle your daily personal &amp professional works.
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-
+        <hr><br>
         <!-- 1st card start  -->
         <div class="row featurette mx-4">
             <div class="col-md-7">
@@ -149,7 +154,7 @@
                     individuals and their overall well-being.
                 </p>
                 <a href="todo.html"><button type="button" class="btn btn-outline-success btn-lg">ADD WORKS RELATED TO
-                        YOUR PERSONAL WORK --&gt;&gt;</button></a>
+                        YOUR SHOPPINGS --&gt;&gt;</button></a>
             </div>
             <div class="col-md-5">
                 <a href="todo.html"><img
@@ -165,7 +170,7 @@
                     <h2 class="featurette-heading fw-normal lh-1 "> TASK MANAGER FOR PROFESSIONAL WORK
                     </h2>
                 </a>
-                <p class="lead fs-5">
+                <p class="text-muted fs-5">
                     Professional work management is crucial in daily life as it helps individuals prioritize tasks,
                     manage time efficiently,
                     improve communication and collaboration, and make informed decisions. Good work management leads to
@@ -181,6 +186,70 @@
             <div class="col-md-5 order-md-1">
                 <a href="todo.html"><img
                         src="http://source.unsplash.com/400x400/?professional work,docotr,engineer,lawer,police,army"
+                        alt="logo" class="img-fluid"></a>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <!-- 3rd  card starts from here  -->
+        <div class="row featurette mx-4">
+            <div class="col-md-7">
+                <a href="todo.html">
+                    <h2 class="featurette-heading fw-normal lh-1"> TAST MANAGER FOR SHOPPINGS</h2>
+                </a>
+                <br>
+                <p class="text-muted fs-5">
+                    Shopping is an essential part of daily life as it helps us acquire the basic necessities we need to
+                    survive, such as
+                    food, clothing, and shelter. It also enhances our quality of life by allowing us to purchase items
+                    that make our lives
+                    more comfortable and enjoyable. Additionally, shopping supports the economy by creating jobs and
+                    generating revenue for
+                    businesses and governments. It also promotes social interaction, enabling us to interact with others
+                    and make new
+                    connections. Finally, shopping can provide a sense of satisfaction and accomplishment, boosting our
+                    self-esteem.
+                    Overall, shopping plays a crucial role in our daily lives and contributes to our physical, social,
+                    and emotional
+                    well-being.
+                    <a href="todo.html"><button type="button" class="btn btn-outline-success btn-lg">ADD WORKS RELATED
+                            TO
+                            SHOPPINGS --&gt;&gt;</button></a>
+            </div>
+            <div class="col-md-5">
+                <a href="todo.html"><img
+                        src="http://source.unsplash.com/400x400/?shopping,clothes,shoes,watch,accessories" alt="logo"
+                        class="img-fluid"></a>
+            </div>
+
+            <!-- 4th card start hai -->
+
+            <hr class="featurette-divider py-4 my-4">
+            <div class="col-md-7 order-md-2">
+                <a href="todo.html">
+                    <h2 class="featurette-heading fw-normal lh-1 "> TASK MANAGER FOR VACATION
+                    </h2>
+                </a>
+                <p class="text-muted fs-5">
+                    Taking vacations is essential for our physical, mental, and emotional well-being. Vacations provide
+                    an opportunity to
+                    rest and recharge, reducing stress and improving overall health. They also promote creativity and
+                    help us to reconnect
+                    with our families and friends. Furthermore, vacations allow us to experience new cultures, try new
+                    activities, and
+                    expand our horizons. They help us to gain new perspectives and insights, and increase our
+                    appreciation for life.
+                    Finally, vacations are crucial for achieving a work-life balance and avoiding burnout. By taking
+                    time away from work and
+                    daily responsibilities, we can return to our daily lives with renewed energy, motivation, and focus.
+                    Overall, vacations
+                    play an important role in maintaining a healthy and fulfilling life.
+                </p>
+                <a href="todo.html" .html"><button type="button" class="btn btn-outline-success btn-lg">ADD WORKS
+                        RELATED TO YOUR VACATIONS --&gt;&gt;</button></a>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <a href="todo.html"><img src="http://source.unsplash.com/400x400/?vacation,mountains,rivers,clouds"
                         alt="logo" class="img-fluid"></a>
             </div>
         </div>
@@ -236,6 +305,7 @@
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
             <p>© 2023 Todo, Inc. All rights reserved.</p>
             <ul class="list-unstyled d-flex my-2">
+                <p></p>
                 <a class="footer-link" href="https://www.facebook.com/profile.php?id=100022766837498"
                     style="margin: 0 10px;"><i class="fa fa-brands fa-facebook"></i></a>
                 <a class="footer-link" href=" https://twitter.com/sinha_niranjan_" style="margin: 0 10px;"><i
@@ -252,7 +322,7 @@
     </footer>
 
 
-    </footer>
+    
     <link rel="stylesheet" href="js/index.js">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
